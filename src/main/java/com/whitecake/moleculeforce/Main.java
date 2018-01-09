@@ -1,7 +1,8 @@
-package com.whitecake.whitecakemoleculeforce;
+package com.whitecake.moleculeforce;
 
-import com.whitecake.whitecakemoleculeforce.proxy.CommonProxy;
-import com.whitecake.whitecakemoleculeforce.util.Reference;
+import com.whitecake.moleculeforce.init.ItemInit;
+import com.whitecake.moleculeforce.proxy.CommonProxy;
+import com.whitecake.moleculeforce.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.Mod.EventHandler;

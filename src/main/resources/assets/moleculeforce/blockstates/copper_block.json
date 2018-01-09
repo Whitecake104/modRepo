@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "moleculeforce:copper_block" }
+  }
+}

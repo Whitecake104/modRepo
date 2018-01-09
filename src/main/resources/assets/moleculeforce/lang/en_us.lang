@@ -1,0 +1,7 @@
+#Items
+item.hydrogen_tank.name=Hydrogen Tank
+item.helium_tank.name=Helium Tank
+item.copper_ingot.name=Copper Ingot
+
+#Blocks
+tile.copper_block.name=Block of Copper
