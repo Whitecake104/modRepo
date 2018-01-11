@@ -4,6 +4,7 @@ import com.whitecake.moleculeforce.Main;
 import com.whitecake.moleculeforce.init.BlockInit;
 import com.whitecake.moleculeforce.init.ItemInit;
 import com.whitecake.moleculeforce.util.IHasModel;
+import com.whitecake.moleculeforce.util.Translate;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -16,7 +17,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ModBlock extends Block implements IHasModel{
+public class ModBlock extends Block implements IHasModel {
 
     private String[] itemDescription;
 
@@ -59,10 +60,26 @@ public class ModBlock extends Block implements IHasModel{
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
+    public ModBlock(String name, Material material, String[] description) {
+        super(material);
+        itemDescription = description;
+        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+
+        if (name.startsWith("minecraft:")) {
+            setUnlocalizedName(Translate.toVanillaNaming(name.substring(10)));
+        } else {
+            setUnlocalizedName(name);
+        }
+        setRegistryName(name);
+
+        BlockInit.BLOCKS.add(this);
+        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+    }
+
     @Override
     public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
-        if(itemDescription != null) {
-            for(String line : itemDescription) {
+        if (itemDescription != null) {
+            for (String line : itemDescription) {
                 list.add(line);
             }
         }

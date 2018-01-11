@@ -1,7 +1,161 @@
-#Items
+#Mod Items Names
+
 item.hydrogen_tank.name=Hydrogen Tank
 item.helium_tank.name=Helium Tank
+item.lithium_piece.name=Lithium Fragment
+item.beryllium_piece.name=Beryllium Fragment
+item.boron_piece.name=Boron Fragment
+item.carbon.name=Carbon
+item.nitrogen_tank.name=Nitrogen Tank
+item.oxygen_tank.name=Oxygen Tank
+item.fluorine_tank.name=Fluorine Tank
+item.neon_tank.name=Neon Tank
+item.sodium_piece.name=Sodium Fragment
+item.magnesium_piece.name=Magnesium Fragment
+item.aluminium_ingot.name=Aluminium Ingot
+item.silicon_piece.name=Silicon Fragment
+item.phosphorus.name=Phosphorus
+item.sulphur.name=Sulphur
+item.chlorine_tank.name=Chlorine Tank
+item.argon_tank.name=Argon Tank
 item.copper_ingot.name=Copper Ingot
+item.krypton_tank.name=Krypton Tank
+item.xenon_tank.name=Xenon Tank
+item.radon_tank.name=Radon Tank
 
-#Blocks
+#Mod Blocks Names
+
 tile.copper_block.name=Block of Copper
+
+#Mod Item Descriptions
+
+desc.hydrogen_tank.line1="H<sub2>"
+desc.hydrogen_tank.line2="Transparent gas."
+desc.hydrogen_tank.line3="Highly explosive."
+
+desc.helium_tank.line1="He"
+desc.helium_tank.line2="Transparent noble gas."
+desc.helium_tank.line3="Glows pink when electrified."
+
+desc.lithium_piece.line1="Li"
+desc.lithium_piece.line2="The lightest alkali metal."
+
+desc.beryllium_piece.line1="Be"
+desc.beryllium_piece.line2="Gray fragile metal."
+desc.beryllium_piece.line3="Used in production of high-quality speakers."
+
+desc.boron_piece.line1="B"
+desc.boron_piece.line2="The lightest metalloid."
+desc.boron_piece.line3="Used in semi-conductors."
+desc.boron_piece.line4="Its compounds are used as insecticides and preservatives."
+
+desc.carbon.line1="C"
+desc.carbon.line2="Black combustible nonmetal."
+desc.carbon.line3="The basic ingredient of all organic compounds."
+
+desc.nitrogen_tank.line1="N<sub2>"
+desc.nitrogen_tank.line2="Transparent gas."
+desc.nitrogen_tank.line3="The main ingredient of the air."
+
+desc.oxygen_tank.line1="O<sub2>"
+desc.oxygen_tank.line2="Transparent gas."
+desc.oxygen_tank.line3="The most common element on the Earth."
+
+desc.fluorine_tank.line1="F<sub2>"
+desc.fluorine_tank.line2="Yellow-green gas."
+desc.fluorine_tank.line3="Its compounds are widely used in many branches."
+
+desc.neon_tank.line1="Ne"
+desc.neon_tank.line2="Transparent noble gas."
+desc.neon_tank.line3="Glows orange when electrified."
+
+desc.sodium_piece.line1="Na"
+desc.sodium_piece.line2="Common alkali metal."
+desc.sodium_piece.line3="Used in soap and preservatives production."
+
+desc.magnesium_piece.line1="Mg"
+desc.magnesium_piece.line2="Alkali metal."
+desc.magnesium_piece.line3="Its alloys are used for various mechanical elements."
+
+desc.aluminium_ingot.line1="Al"
+desc.aluminium_ingot.line2="Silver metal."
+desc.aluminium_ingot.line3="Used in production of drink cans and mirrors."
+
+desc.silicon_piece.line1="Si"
+desc.silicon_piece.line2="Gray shiny metalloid."
+desc.silicon_piece.line3="Commonly used in electronics industry."
+
+desc.phosphorus.line1="P"
+desc.phosphorus.line2="Red form. Crimson nonmetal."
+desc.phosphorus.line3="Used in production of matches."
+
+desc.sulphur.line1="S"
+desc.sulphur.line2="Yellow fragile nonmetal."
+desc.sulphur.line3="Used in production of sulfuric acid and fertilizers."
+
+desc.chlorine_tank.line1="Cl<sub2>"
+desc.chlorine_tank.line2="Yellow-green poisonous gas."
+desc.chlorine_tank.line3="Good bleach and disinfectant."
+
+desc.argon_tank.line1="Ar"
+desc.argon_tank.line2="Transparent noble gas."
+desc.argon_tank.line3="Glows yellow when electrified."
+
+desc.copper_ingot.line1="Cu"
+desc.copper_ingot.line2="Brown noble meta."
+desc.copper_ingot.line3="A good electric conductor used in electronics."
+
+desc.krypton_tank.line1="Kr"
+desc.krypton_tank.line2="Transparent noble gas."
+desc.krypton_tank.line3="Glows pale-purple when electrified."
+
+desc.xenon_tank.line1="Xe"
+desc.xenon_tank.line2="Transparent noble gas."
+desc.xenon_tank.line3="Glows blue when electrified."
+
+desc.radon_tank.line1="Rn"
+desc.radon_tank.line2="Transparent radioactive noble gas."
+desc.radon_tank.line3="Glows red when electrified."
+
+#Vanilla Item Descriptions
+
+desc.charcoal.line1="Consists in 75%% of carbon."
+
+desc.coal.line1="Consists in 85%% of carbon."
+
+desc.diamond.line1="Consists of pure crstalline carbon."
+
+desc.emerald.line1="Be<sub3>Al<sub2>(SiO<sub3>)<sub6>"
+
+desc.flint.line1="SiO<sub2>"
+desc.flint.line2="Sharp and sparkling rock."
+desc.flint.line3="Used in arrows and to start a fire."
+
+desc.gold_ingot.line1="Au"
+desc.gold_ingot.line2="Soft yellow noble metal."
+desc.gold_ingot.line3="A precious superconductor and disinfectant."
+
+desc.gunpowder.line1="Mixture of charcoal, sulphur and potassium nitrate."
+desc.gunpowder.line2="A low-efficiency explosive used for fireworks and bombs."
+
+desc.iron_ingot.line1="Fe"
+desc.iron_ingot.line2="Gray durable metal."
+desc.iron_ingot.line3="Widely-used for tools, mechanical elements etc."
+
+desc.lapis_lazuli.line1="(Na,Ca)<sub8>(SO<sub4>,S,Cl)<sub2>(AlSiO<sub4>)<sub6>"
+desc.lapis_lazuli.line2="Rare metamorphic rock."
+desc.lapis_lazuli.line3="Used as dye and for decoration purposes."
+
+desc.redstone.line1="Compound of iron (III) oxide and copper."
+desc.redstone.line2="The admixture of copper causes semi-conductive properties."
+
+#Vanilla Block Descriptions
+
+desc.granite.line1="Common magma rock."
+desc.granite.line2="Composition:"
+desc.granite.line3="KAlSi<sub3>O<sub8>"
+desc.granite.line4="NaAlSi<sub3>O<sub8>"
+desc.granite.line5="CaAl<sub2>Si2<sub2>O<sub8>"
+desc.granite.line6="SiO<sub2>"
+desc.granite.line7="K(Mg,Fe)<sub3>(AlSi<sub3>O<sub1><sub0>)(OH,F)<sub2>"
+desc.granite.line8="KAl<sub2>(OH,F)<sub2>AlSi<sub3>O<sub1><sub0>"
