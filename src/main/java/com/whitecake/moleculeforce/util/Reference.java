@@ -1,6 +1,6 @@
 package com.whitecake.moleculeforce.util;
 
-import net.minecraft.client.resources.I18n;+
+import net.minecraft.client.resources.I18n;
 
 public class Reference {
     public static final String MODID = "moleculeforce";

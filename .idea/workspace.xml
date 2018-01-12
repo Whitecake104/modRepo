@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659295a6-48ee-4bc9-b68d-fcdc86540151" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/objects/items/ItemRedstone.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/models/item/calcium_piece.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/models/item/potassium_piece.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/models/item/scandium_piece.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/models/item/sulphur_powder.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/models/item/titanium_ingot.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/textures/items/calcium_piece.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/textures/items/potassium_piece.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/textures/items/scandium_piece.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/textures/items/sulphur_powder.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/textures/items/titanium_ingot.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/init/ItemInit.java" afterPath="$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/init/ItemInit.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/util/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/util/Reference.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/lang/en_us.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/lang/en_us.lang" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/models/item/sulphur.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moleculeforce/textures/items/sulphur.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -150,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/util/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -1864,7 +1850,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whitecake/moleculeforce/util/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
