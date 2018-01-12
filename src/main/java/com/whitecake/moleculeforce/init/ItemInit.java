@@ -1,8 +1,8 @@
 package com.whitecake.moleculeforce.init;
 
+import com.whitecake.moleculeforce.objects.items.ItemRedstone;
 import com.whitecake.moleculeforce.objects.items.ModItem;
 import com.whitecake.moleculeforce.util.Reference;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;
@@ -42,12 +42,20 @@ public class ItemInit {
             Reference.description("silicon_piece", 3));
     public static final ModItem PHOSPHORUS = new ModItem("phosphorus",
             Reference.description("phosphorus", 3));
-    public static final ModItem SULPHUR = new ModItem("sulphur",
-            Reference.description("sulphur", 3));
+    public static final ModItem SULPHUR = new ModItem("sulphur_powder",
+            Reference.description("sulphur_powder", 3));
     public static final ModItem CHLORINE_TANK = new ModItem("chlorine_tank",
             Reference.description("chlorine_tank", 3));
     public static final ModItem ARGON_TANK = new ModItem("argon_tank",
             Reference.description("argon_tank", 3));
+    public static final ModItem POTASSIUM_PIECE = new ModItem("potassium_piece",
+            Reference.description("potassium_piece", 3));
+    public static final ModItem CALCIUM_PIECE = new ModItem("calcium_piece",
+            Reference.description("calcium_piece", 3));
+    public static final ModItem SCANDIUM_PIECE = new ModItem("scandium_piece",
+            Reference.description("scandium_piece", 3));
+    public static final ModItem TITANIUM_PIECE = new ModItem("titanium_ingot",
+            Reference.description("titanium_ingot", 3));
     public static final ModItem COPPER_INGOT = new ModItem("copper_ingot",
             Reference.description("copper_ingot", 3));
     public static final ModItem KRYPTON_TANK = new ModItem("krypton_tank",
@@ -74,6 +82,5 @@ public class ItemInit {
             Reference.description("gunpowder", 2));
     public static final ModItem IRON_INGOT = new ModItem("minecraft:iron_ingot",
             Reference.description("iron_ingot", 3));
-    public static final ModItem REDSTONE = new ModItem("minecraft:redstone",
-            CreativeTabs.REDSTONE, Reference.description("redstone", 2));
+    public static final ItemRedstone REDSTONE = new ItemRedstone(Reference.description("redstone", 2));
 }

@@ -1,6 +1,6 @@
 package com.whitecake.moleculeforce.util;
 
-import net.minecraft.client.resources.I18n;
+import net.minecraft.client.resources.I18n;+
 
 public class Reference {
     public static final String MODID = "moleculeforce";
@@ -12,7 +12,7 @@ public class Reference {
 
     public static String[] description(String item, int lines) {
         String[] desc = new String[lines];
-        for (int i = 0; i < lines; i++) {
+        {for (int i = 0; i < lines; i++) {
             desc[i] = I18n.format("desc." + item + ".line" + (i + 1))
                     .replaceAll("<sub0>", "\u00A7l\u2080\u00A77")
                     .replaceAll("<sub1>", "\u00A7l\u2081\u00A77")
@@ -24,7 +24,7 @@ public class Reference {
                     .replaceAll("<sub7>", "\u00A7l\u2087\u00A77")
                     .replaceAll("<sub8>", "\u00A7l\u2088\u00A77")
                     .replaceAll("\"", "");
-        }
+        }}
         return desc;
     }
 }

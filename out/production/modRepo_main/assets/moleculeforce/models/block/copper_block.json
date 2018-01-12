@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moleculeforce:blocks/copper_block"
+  }
+}
